@@ -13,10 +13,6 @@ app.get('/babo', function (req, res) {
     res.send("실패!")
 })
 
-// app.get('/', (req, res) => {
-//     res.send("hello world!")
-// })
-
 app.listen(3000, function () {
     console.log("System is working")
 })
